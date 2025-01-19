@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PH Tube</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-100">
+
+  <!-- Header -->
+  <header class="bg-white shadow">
+    <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+      <div class="flex items-center">
+        <img src="/Logo.png" alt="Logo" class="h-8 mr-3">
+      </div>
+      <div class="flex space-x-4">
+        <button id="sortByView" class="bg-gray-100 px-4 py-2 text-sm font-medium rounded hover:bg-gray-200">
+          Sort by view
+        </button>
+        <a href="#" class="bg-red-500 text-white px-4 py-2 text-sm font-medium rounded hover:bg-red-600">
+          Blog
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Filters (below header) -->
+  <section class="bg-white mt-4 shadow">
+    <div class="container mx-auto px-4 py-4 flex justify-center space-x-4">
+      <!-- Buttons will be dynamically inserted here by JS -->
+    </div>
+  </section>
+
+  <!-- Videos -->
+  <main class="container mx-auto px-4 py-8">
+    <div id="videoGallery" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+      <!-- Video Cards Will Be Dynamically Added Here -->
+    </div>
+  </main>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+
+</body>
+
+</html>
